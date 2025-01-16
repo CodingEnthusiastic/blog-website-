@@ -601,3 +601,21 @@ body {
         margin-top: 20px;
     }
 }
+
+@media(max-width: 768px)
+{
+    #b{
+        display: flex;
+        flex-direction: column;
+
+        width: 210vw;
+    }
+    
+}
+@media(max-width: 768px)
+{
+    #c,#d{
+        height: 100%;
+        width: 200%;
+    }
+}
