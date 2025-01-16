@@ -595,7 +595,7 @@ body {
 @media(max-width: 768px)
 {
     .carousel-container{
-        height: 60%;
+        height: 35vh;
         width: 60%;
         margin-left: 20%;
     }
