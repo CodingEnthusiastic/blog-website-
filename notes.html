@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes - Blog Website</title>
+    <link rel="stylesheet" href="stylesnotes.css">
+</head>
+<body>
+    <header>
+        <h1>Notes</h1>
+    </header>
+    <nav>
+        <a href="dummy.html">Home</a>
+        <a href="dummy.html">Editor</a>
+        <a href="notes.html">Notes</a>
+    </nav>
+    <div class="container">
+        <!-- Note-Taking Form -->
+        <div class="note-form">
+            <textarea id="note-input" placeholder="Write your note here..."></textarea>
+            <button id="save-note-btn">Save Note</button>
+        </div>
+
+        <!-- Notes List Section -->
+        <div class="notes-list" id="notes-list">
+            <h2>Saved Notes</h2>
+            <!-- Notes will be dynamically inserted here -->
+        </div>
+    </div>
+    <script src="notesscript.js"></script>
+</body>
+</html>
