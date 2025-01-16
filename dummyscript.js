@@ -72,3 +72,12 @@ function submitFormattedText() {
         alert("Editor is empty! Please write something before submitting.");
     }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const toggleButton = document.querySelector('.navbar-toggle');
+    const navbarMenu = document.querySelector('.navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active'); // Toggles the display of the navbar menu
+    });
+});
